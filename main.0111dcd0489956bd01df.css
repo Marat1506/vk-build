@@ -421,6 +421,329 @@ body {
     color: #666;
     font-style: italic;
 }
+/* Advertising module specific styles */
+.advertising-module {
+    border: 2px solid #ffc107;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    background-color: #fff9e6;
+}
+
+.advertising-method {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.advertising-method .method-header {
+    padding: 10px;
+    background-color: #fff3cd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.advertising-method .method-content {
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.advertising-method .description {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.advertising-method .parameters-section,
+.advertising-method .returns-section {
+    margin-bottom: 15px;
+}
+
+.advertising-method h4 {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+/* Player module specific styles */
+.player-module {
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    background-color: #f0f9f0;
+}
+
+.player-method {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.player-method .method-header {
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.player-method .method-content {
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.player-method .description {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.player-method .parameters-section,
+.player-method .returns-section {
+    margin-bottom: 15px;
+}
+
+.player-method h4 {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+/* Purchase module specific styles */
+.purchase-module {
+    border: 2px solid #9C27B0;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    background-color: #f9f0ff;
+}
+
+.purchase-method {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.purchase-method .method-header {
+    padding: 10px;
+    background-color: #f3e5f5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.purchase-method .method-content {
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.purchase-method .description {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.purchase-method .parameters-section,
+.purchase-method .returns-section {
+    margin-bottom: 15px;
+}
+
+.purchase-method .params-description {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.purchase-method h4 {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.purchase-method .form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Leaderboard module specific styles */
+.leaderboard-module {
+    border: 2px solid #FF9800;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    background-color: #fff8e6;
+}
+
+.leaderboard-method {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.leaderboard-method .method-header {
+    padding: 10px;
+    background-color: #fff3e0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.leaderboard-method .method-content {
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.leaderboard-method .description {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.leaderboard-method .parameters-section,
+.leaderboard-method .returns-section {
+    margin-bottom: 15px;
+}
+
+.leaderboard-method .params-description {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 0.9em;
+    white-space: pre-line;
+}
+
+.leaderboard-method h4 {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.leaderboard-method .form-group {
+    margin-bottom: 10px;
+}
+
+.leaderboard-method .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.leaderboard-method .form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.leaderboard-method .form-textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-height: 100px;
+    resize: vertical;
+}
+
+.leaderboard-method .no-params {
+    margin-bottom: 10px;
+    color: #666;
+    font-style: italic;
+}
+
+
+/* Storage module specific styles */
+.storage-module {
+    border: 2px solid #2196F3;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    background-color: #e8f4fd;
+}
+
+.storage-method {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.storage-method .method-header {
+    padding: 10px;
+    background-color: #e3f2fd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.storage-method .method-content {
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.storage-method .description {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.storage-method .parameters-section,
+.storage-method .returns-section {
+    margin-bottom: 15px;
+}
+
+.storage-method .params-description {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.storage-method h4 {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.storage-method .form-group {
+    margin-bottom: 10px;
+}
+
+.storage-method .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.storage-method .form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.storage-method .form-textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-height: 100px;
+    resize: vertical;
+    font-family: monospace;
+}
+
+.storage-method .no-params {
+    margin-bottom: 10px;
+    color: #666;
+    font-style: italic;
+}
+
 
 @media (max-width: 768px) {
     .method-form {
@@ -431,6 +754,7 @@ body {
         padding: 6px 10px;
     }
 }
+
 
 .method
 @media (max-width: 600px) {
